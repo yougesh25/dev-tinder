@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>DevTinder Web</h1>
+      <h1 data-theme="dark" className="text-white text-5xl">
+        DevTinder Web
+      </h1>
     </>
   );
 }
